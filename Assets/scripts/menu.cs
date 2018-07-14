@@ -29,6 +29,12 @@ public class menu : MonoBehaviour
     {
         Application.Quit();
     }
+	public void cont()
+	{
+		Menu.gameObject.SetActive (false);
+		z = false;
+	}
+
 }
 
        
